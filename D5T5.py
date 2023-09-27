@@ -1,4 +1,4 @@
-# count number of vowels in string
+#1. count number of vowels in string
 
 g = "Guvi Geeks Network Private Limited"
 count = 0
@@ -10,7 +10,7 @@ print(count)
 print()
 
 
-#pyramid program
+#2.pyramid program
 
 for i in range(1,21):
     print(" "*(21-i),end =" ")
@@ -21,7 +21,7 @@ for i in range(1,21):
 
 print()
 
-#remove vowels from a string
+#3.remove vowels from a string
 
 def removevow(string):
     for i in string:
@@ -38,7 +38,7 @@ removevow(string)
 print()
 
     
-# find its palindrome or not
+#5.find its palindrome or not
             
         
 def findpalindrome (str1,str2):
@@ -53,7 +53,7 @@ findpalindrome( str1,str2)
         
 print()
 
-#count no of words in a
+#9.count no of words in a
 
 
 def NoOfWords(str):
@@ -68,7 +68,7 @@ NoOfWords(str)
 
 print()
 
-# check its anagram or not
+#8.check its anagram or not
 
 def checkAnagram(str1,str2):
     if str1 == str2:
