@@ -37,6 +37,18 @@ removevow(string)
 
 print()
 
+
+# print unique character in string
+
+s = "Guvi Geeks Network Private Limited"
+uniq_char = set(s)
+sum =0
+for i in uniq_char:
+    sum = sum+1
+print("No of unique char in str is: ",sum -1)
+
+    
+
     
 #5.find its palindrome or not
             
