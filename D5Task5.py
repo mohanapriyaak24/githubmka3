@@ -38,7 +38,7 @@ removevow(string)
 print()
 
 
-# print unique character in string
+#4. print unique character in string
 
 s = "Guvi Geeks Network Private Limited"
 uniq_char = set(s)
