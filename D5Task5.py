@@ -65,6 +65,39 @@ findpalindrome( str1,str2)
         
 print()
 
+
+#7 print a frequent character in string
+
+def get_freq(str1):
+    char = {}
+    for i in str1:
+        if i in char:
+            char[i] += 1
+        else:
+            char[i] = 1
+    res = max(char,key=char.get)
+    print("Most frequent character in the string is: ",res)
+str1 = "Guvi Geeks Network Private Limited"
+get_freq(str1)
+
+print()
+
+
+#8.check its anagram or not
+
+def checkAnagram(str1,str2):
+    if str1 == str2:
+        print("True")
+    else:
+        print("False")
+print("check if its anagram")
+
+str1 = sorted(input("Enter a word: "))
+str2 = sorted(input("Enter a word: "))
+checkAnagram(str1,str2)
+
+print()
+
 #9.count no of words in a
 
 
@@ -80,18 +113,7 @@ NoOfWords(str)
 
 print()
 
-#8.check its anagram or not
 
-def checkAnagram(str1,str2):
-    if str1 == str2:
-        print("True")
-    else:
-        print("False")
-print("check if its anagram")
-
-str1 = sorted(input("Enter a word: "))
-str2 = sorted(input("Enter a word: "))
-checkAnagram(str1,str2)
     
     
 
