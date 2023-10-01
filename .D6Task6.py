@@ -10,8 +10,8 @@ for num in list1:
     else:
         Odd_list.append(num)
 
-print(Even_list)
-print(Odd_list)
+print("Even Number List : ",Even_list)
+print("Odd Number List :  ",Odd_list)
 
 #count the prime number in the list
 
@@ -25,6 +25,18 @@ for num in list2:
             break
     else:
         count += 1
-print(count)    
+print("PrimeNumber count in the List: ", count)  
+
+
+# print sum first and last digit of the number
+
+def addFirstAndLast(n):
+    num = str(n)
+    First_num = int(num[0])
+    Last_num = int(num[-1])
+    sum = First_num + Last_num
+    print("sum of first and last digit in the number: ", sum)
+addFirstAndLast(4567)
+
 
 
