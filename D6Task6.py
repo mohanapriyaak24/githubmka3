@@ -1,4 +1,4 @@
-# list the even number and odd number
+# 1. list the even number and odd number
 
 list1 = [10,501,22,37,100,999,87,351]
 Even_list = []
@@ -13,7 +13,7 @@ for num in list1:
 print("Even Number List : ",Even_list)
 print("Odd Number List :  ",Odd_list ,"\n")
 
-#count the prime number in the list
+# 2. count the prime number in the list
 
 list2 = [10,501,22,37,100,999,87,351]
 count = 0
@@ -28,7 +28,7 @@ for num in list2:
 print("PrimeNumber count in the List: ", count, "\n")  
 
 
-# print sum first and last digit of the number
+# 4. print sum first and last digit of the number
 
 def addFirstAndLast(n):
     num = str(n)
@@ -39,7 +39,7 @@ def addFirstAndLast(n):
 addFirstAndLast(4567)
 
 
-# find the duplicates  in the list
+# 6. the duplicates  in the list
 
 
 def findDup(list):
@@ -60,7 +60,7 @@ findDup(list1)
 findDup(list2)
 findDup(list3)
 
-# first non-repeating element in the list
+# 7. first non-repeating element in the list
 
 list1= [2,3,4,2,3,5,6]
 l1= []
@@ -71,13 +71,13 @@ for i in list1:
 print("First non-repeating element in the list : ",l1[0],"\n")
         
 
-#find the minimum element in the rated and sorted list
+# 8. find the minimum element in the rated and sorted list
 
 list1 = [10,501,22,37,100,999,87,351]
 list1.sort()
 print("Minimum element in the sorted list: ",list1[0],"\n")
 
-# Find the triplets in the list whose sum is equal to 59
+# 9. Find the triplets in the list whose sum is equal to 59
 
 def findTriplets(list1, sum ,lenL):
 
@@ -97,7 +97,7 @@ sum = 59
 lenL =len(list1) 
 findTriplets(list1,sum,lenL)
 
-#print sub-list of sum is zero
+# 10. print sub-list of sum is zero
 
 def subList(list1,len2):
 

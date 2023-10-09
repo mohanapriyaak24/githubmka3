@@ -1,0 +1,2 @@
+For this, we will use the DateTime module. First, import the module and then get the current time with date now() object.
+Now convert it into a string and then create a file with the file object like a regular file is created using file handling concepts in Python.
