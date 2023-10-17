@@ -97,7 +97,7 @@ sum = 59
 lenL =len(list1) 
 findTriplets(list1,sum,lenL)
 
-# 10. print sub-list of sum is zero
+# 10. print sub-list of the sum is zero
 
 def subList(list1,len2):
 
